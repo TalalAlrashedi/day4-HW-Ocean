@@ -1,0 +1,126 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Tajawal", sans-serif;
+  background-color: #52b6e1;
+  color: rgb(249, 249, 249);
+  font-weight: 400;
+  direction: rtl;
+  background: url("./imagesFish/sea-2361247.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  text-align: center;
+  margin-top: 1%;
+  padding: 2%;
+  background-color: #4e4d4d5a;
+}
+
+nav a {
+  margin: 0 1em;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: rgba(186, 186, 186, 0.492);
+  border-radius: 1rem;
+  padding: 0.5%;
+}
+
+header {
+  background-size: cover;
+  padding: 4%;
+  margin: 2% 20%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #4e4d4d5a;
+  width: 50%;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+ul {
+  margin: 0 5%;
+}
+
+.trip {
+  margin: 3%;
+  background-color: #4e4d4d5a;
+}
+
+.section{
+    background-color: #4e4d4d5a;
+}
+
+.category-fish {
+  display: inline-block;
+  width: 30%;
+
+  background-color: #1c6b76;
+  padding: 1em;
+}
+
+.trip h3 {
+  padding: 2%;
+}
+.category-fish img {
+  width: 100%;
+}
+
+th,
+td {
+  border: 2px solid #100f0f;
+  padding: 0.8em;
+  text-align: center;
+  background-color: #1c6b76;
+}
+
+.register-form {
+  width: 100%;
+}
+
+.register-form form {
+  width: 80%;
+  margin: 3% auto;
+  background: #1c6b76;
+  padding: 2em;
+  border-radius: 1em;
+  text-align: center;
+}
+
+.register-form label {
+  display: block;
+  margin: 1em 0 0.5em;
+}
+
+.register-form select,
+textarea {
+  width: 50%;
+  padding: 0.8em;
+  border: 1px solid #aaa;
+  border-radius: 0.5em;
+  display: block;
+}
+
+.register-form button {
+  padding: 1em 2em;
+  margin: 3% 4% 5%;
+  background-color: #0077aa;
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  font-size: 1rem;
+  cursor: pointer;
+}
